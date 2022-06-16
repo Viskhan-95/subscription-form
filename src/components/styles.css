@@ -1,0 +1,43 @@
+.main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.text {
+    font-size: 22px;
+ }
+
+ .textError {
+    box-shadow: 3px 2px 2px red;
+ }
+
+ .form > .text {
+    flex: 1;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    padding-left: 15px;
+  }
+
+  .form .submit {
+    height: 30px;
+    background-color: #634BF5;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .isError {
+    color: red;
+    margin: 5px 0 0 15px;
+  }
+
+  .isSuccessfully {
+    color: springgreen;
+    margin: 5px 0 0 15px;
+  }
